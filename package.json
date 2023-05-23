@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Good Luck!",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/cyberbitpc/cyberpc-backend/issues"
   },
-  "homepage": "https://github.com/cyberbitpc/cyberpc-backend#readme"
+  "homepage": "https://github.com/cyberbitpc/cyberpc-backend#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  }
 }
